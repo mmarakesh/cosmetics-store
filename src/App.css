@@ -34,6 +34,17 @@
   button {
   margin: 10px;
   }
+  .btn-home{
+  padding: 5px 10px;
+  border-radius: 10px;
+  }
+  .btn-home:hover{
+  background-color: #000;
+  color: #fff;
+  }
+  .btn-container {
+   margin-left: auto;
+  }
   nav {
     background: #cfeae5;
     display: flex;
@@ -41,10 +52,14 @@
     padding: 15px;
 }
 .link {
+  display: flex;
+  margin-left: 100px;
+   align-self: center;
     padding: 10px 40px;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    
 }
 .imageFront {
   margin: 8px;
