@@ -34,11 +34,11 @@
   button {
   margin: 10px;
   }
-  .btn-home{
+  .btn-lang{
   padding: 5px 10px;
   border-radius: 10px;
   }
-  .btn-home:hover{
+  .btn-lang:hover{
   background-color: #000;
   color: #fff;
   }
@@ -144,7 +144,21 @@ margin-bottom: 30px;
     margin-left: 50px;
     margin-right: 50px;
   }
+  input {
+    margin-left: 20px;
+  }
+  .search {
+    border-style: none;
+    background-color: #fff;
+  }
   @media all and (max-width: 850px) {
+    .nav-container {
+      flex-direction: column;
+     }
+     .link {
+       align-self: flex-start;
+       margin-left: 0px;
+     } 
     .daySale {
       flex-direction: column;
     }
@@ -170,7 +184,6 @@ margin-bottom: 30px;
       align-self: flex-start;
       margin-left: 0px;
     } 
-    
     .daySale {
       flex-direction: column;
     }

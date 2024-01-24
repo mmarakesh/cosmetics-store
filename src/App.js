@@ -28,7 +28,7 @@ function App() {
         </div>
 
         <div className="btn-container">
-        <button className="btn-home" onClick={toggleLang}>
+        <button className="btn-lang" onClick={toggleLang}>
         {i18n.language === 'en' ? 'ru' : 'en'}
         </button>
         </div>

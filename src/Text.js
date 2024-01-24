@@ -7,7 +7,6 @@ function Text() {
 <div>
         <div className="products">
         <h1 className="lookAtMe">{t('Look at me')}</h1>
-        <input placeholder={t("search")}/>
        </div>
         <div className="containerFront">
             <img className="imageFront" src="https://www.sephora.com/contentimages/2023-01-11-slotting-bestsellers-v2-site-responsive-home-page-hero-banner-2022-xxXxx-slotting-bestsellers-v2-site-mobile-home-page-hero-banner-US_01.jpg?imwidth=545" alt="front" width={490}/>

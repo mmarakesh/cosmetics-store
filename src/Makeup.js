@@ -18,9 +18,8 @@ function Makeup() {
         <div>
             <div className="products">
                 <h1 className="lookAtMe">{t('Look at me')}</h1>
-                <input placeholder={t("search")}/>
             </div>
-            <Buttons filteredCosmetics = {filteredCosmetics}/>
+            <Buttons filteredCosmetics = {filteredCosmetics} setCosmetics = {setCosmetics} data={data}/>
             <Product cosmetics = {cosmetics}/>
         </div>
     )
