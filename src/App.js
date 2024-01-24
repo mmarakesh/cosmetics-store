@@ -21,18 +21,17 @@ function App() {
   
   return <Router>
       <nav>
+        <div className="nav-container">
         <Link to="/" className="link">{t('Home')}</Link>
         <Link to="/makeup" className="link">{t('Makeup')}</Link>
         <Link to="/promotion" className="link">{t('Promotion')}</Link>
-        
+        </div>
+
         <div className="btn-container">
         <button className="btn-home" onClick={toggleLang}>
         {i18n.language === 'en' ? 'ru' : 'en'}
         </button>
         </div>
-
-        
-
       </nav>
 
       <Routes>

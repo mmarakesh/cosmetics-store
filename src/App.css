@@ -43,23 +43,24 @@
   color: #fff;
   }
   .btn-container {
-   margin-left: auto;
+  margin-left: auto;
   }
   nav {
-    background: #cfeae5;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+  background: #cfeae5;
+  display: flex;
+  padding: 15px;
+}
+.nav-container {
+  display: flex;
 }
 .link {
   display: flex;
   margin-left: 100px;
-   align-self: center;
-    padding: 10px 40px;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    
+  align-self: center;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 .imageFront {
   margin: 8px;
@@ -162,6 +163,14 @@ margin-bottom: 30px;
     }
   }
   @media all and (max-width: 500px) {
+    .nav-container {
+     flex-direction: column;
+    }
+    .link {
+      align-self: flex-start;
+      margin-left: 0px;
+    } 
+    
     .daySale {
       flex-direction: column;
     }
@@ -173,7 +182,7 @@ margin-bottom: 30px;
       width: 400px;
     }
     .link {
-      font-size: 12px;
+      font-size: 18px;
     }
     .imgPromotion {
       width: 300px;
