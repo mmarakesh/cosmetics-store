@@ -32,7 +32,7 @@ function Buttons({filteredCosmetics, setCosmetics, data}) {
     })
     }
                 
-   }, [search, data])
+   }, [search, data, setCosmetics])
 
 
     return(
